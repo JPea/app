@@ -12,10 +12,11 @@
   "version": "1.0.0",
   "scripts": {
     "build": "eleventy",
-    "start": "eleventy --serve"
+    "start": "eleventy --watch; http-server dist"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.9.0"
+    "@11ty/eleventy": "^0.9.0",
+    "http-server": "^0.11.1"
   },
   "license": "MIT"
 }
